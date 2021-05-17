@@ -13,8 +13,14 @@ const drink = {
 
 const drinkTuple: [string, boolean, number] = ['brown', true, 40]
 
-drinkTuple[0] = 40
+//no good, doesnt match 
+// drinkTuple[0] = 40
 
 type Drink = [string, boolean, number]
 
 const pepsi: Drink = ['red', false, 30]
+
+//What does this mean?
+const carSpecs: [number, number] =  [400, 3354]
+
+const carStats = { horsepower: 400, weight: 3354 }
